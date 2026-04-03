@@ -1,0 +1,41 @@
+[
+  {
+    "id": "liq_BTC_93450",
+    "strategy": "LIQUIDATION_CASCADE",
+    "asset": "BTC/USDT",
+    "profit_pct": 5.0,
+    "risk_level": "MEDIUM",
+    "details": {
+      "level": 93450,
+      "current": 93500
+    },
+    "timestamp": 1775243140.0720804,
+    "expiry": 1775243440.0720806
+  },
+  {
+    "id": "liq_BTC_92000",
+    "strategy": "LIQUIDATION_CASCADE",
+    "asset": "BTC/USDT",
+    "profit_pct": 5.0,
+    "risk_level": "MEDIUM",
+    "details": {
+      "level": 92000,
+      "current": 93500
+    },
+    "timestamp": 1775243140.0720875,
+    "expiry": 1775243440.0720875
+  },
+  {
+    "id": "liq_ETH_3400",
+    "strategy": "LIQUIDATION_CASCADE",
+    "asset": "ETH/USDT",
+    "profit_pct": 5.0,
+    "risk_level": "MEDIUM",
+    "details": {
+      "level": 3400,
+      "current": 3410
+    },
+    "timestamp": 1775243140.0720913,
+    "expiry": 1775243440.0720913
+  }
+]
