@@ -1,0 +1,100 @@
+{
+  "arbitrage": [],
+  "liquidations": [
+    {
+      "type": "LONG LIQ",
+      "price": "$65,508",
+      "volume": "$500,000,000",
+      "impact": "HIGH"
+    },
+    {
+      "type": "LONG LIQ",
+      "price": "$63,502",
+      "volume": "$250,000,000",
+      "impact": "MED"
+    },
+    {
+      "type": "LONG LIQ",
+      "price": "$60,160",
+      "volume": "$100,000,000",
+      "impact": "MED"
+    },
+    {
+      "type": "SHORT LIQ",
+      "price": "$68,181",
+      "volume": "$500,000,000",
+      "impact": "HIGH"
+    },
+    {
+      "type": "SHORT LIQ",
+      "price": "$70,187",
+      "volume": "$250,000,000",
+      "impact": "MED"
+    },
+    {
+      "type": "SHORT LIQ",
+      "price": "$73,529",
+      "volume": "$100,000,000",
+      "impact": "MED"
+    }
+  ],
+  "p2p_spreads": [],
+  "funding_rates": [
+    {
+      "exchange": "binance",
+      "symbol": "BTC/USDT",
+      "rate_8h": "-0.3424%",
+      "apy": "-375.0%"
+    },
+    {
+      "exchange": "binance",
+      "symbol": "ETH/USDT",
+      "rate_8h": "4.5929%",
+      "apy": "5029.2%"
+    },
+    {
+      "exchange": "binance",
+      "symbol": "SOL/USDT",
+      "rate_8h": "1.5791%",
+      "apy": "1729.1%"
+    },
+    {
+      "exchange": "bybit",
+      "symbol": "BTC/USDT",
+      "rate_8h": "0.4098%",
+      "apy": "448.7%"
+    },
+    {
+      "exchange": "bybit",
+      "symbol": "ETH/USDT",
+      "rate_8h": "0.8836%",
+      "apy": "967.6%"
+    },
+    {
+      "exchange": "bybit",
+      "symbol": "SOL/USDT",
+      "rate_8h": "-0.1116%",
+      "apy": "-122.2%"
+    },
+    {
+      "exchange": "okx",
+      "symbol": "BTC/USDT",
+      "rate_8h": "0.2674%",
+      "apy": "292.7%"
+    },
+    {
+      "exchange": "okx",
+      "symbol": "ETH/USDT",
+      "rate_8h": "1.4327%",
+      "apy": "1568.8%"
+    },
+    {
+      "exchange": "okx",
+      "symbol": "SOL/USDT",
+      "rate_8h": "-0.6025%",
+      "apy": "-659.7%"
+    }
+  ],
+  "volume_anomalies": [],
+  "start_time": 1775245217.0249605
+}
