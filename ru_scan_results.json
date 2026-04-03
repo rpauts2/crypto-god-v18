@@ -1,0 +1,259 @@
+{
+  "timestamp": "2026-04-03T18:16:21.127475",
+  "results": {
+    "p2p_arb": [],
+    "futures_basis": [
+      {
+        "exchange": "bybit",
+        "asset": "ETH",
+        "spot_price": 3018,
+        "future_price": 3095,
+        "basis": 77,
+        "basis_pct": 2.551,
+        "annualized_return": 31.04,
+        "type": "CONTANGO",
+        "strategy": "Long Spot + Short Future"
+      },
+      {
+        "exchange": "binance",
+        "asset": "ETH",
+        "spot_price": 3020,
+        "future_price": 3080,
+        "basis": 60,
+        "basis_pct": 1.987,
+        "annualized_return": 24.17,
+        "type": "CONTANGO",
+        "strategy": "Long Spot + Short Future"
+      },
+      {
+        "exchange": "bybit",
+        "asset": "BTC",
+        "spot_price": 94480,
+        "future_price": 95800,
+        "basis": 1320,
+        "basis_pct": 1.397,
+        "annualized_return": 17.0,
+        "type": "CONTANGO",
+        "strategy": "Long Spot + Short Future"
+      },
+      {
+        "exchange": "binance",
+        "asset": "BTC",
+        "spot_price": 94500,
+        "future_price": 95200,
+        "basis": 700,
+        "basis_pct": 0.741,
+        "annualized_return": 9.01,
+        "type": "CONTANGO",
+        "strategy": "Long Spot + Short Future"
+      },
+      {
+        "exchange": "okx",
+        "asset": "BTC",
+        "spot_price": 94520,
+        "future_price": 94900,
+        "basis": 380,
+        "basis_pct": 0.402,
+        "annualized_return": 4.89,
+        "type": "CONTANGO",
+        "strategy": "Long Spot + Short Future"
+      }
+    ],
+    "funding_arb": [],
+    "listing_pumps": [
+      {
+        "exchange": "binance",
+        "token": "NEWCOIN",
+        "time_to_trade_hours": 2.0,
+        "pairs": [
+          "NEWCOIN/USDT",
+          "NEWCOIN/BTC"
+        ],
+        "strategy": "Buy on DEX before listing, sell on CEX pump",
+        "risk": "High",
+        "type": "LISTING_PUMP"
+      },
+      {
+        "exchange": "bybit",
+        "token": "AITECH",
+        "time_to_trade_hours": 2.0,
+        "pairs": [
+          "AITECH/USDT"
+        ],
+        "strategy": "Buy on DEX before listing, sell on CEX pump",
+        "risk": "High",
+        "type": "LISTING_PUMP"
+      },
+      {
+        "exchange": "okx",
+        "token": "MEMEAI",
+        "time_to_trade_hours": 2.0,
+        "pairs": [
+          "MEMEAI/USDT",
+          "MEMEAI/ETH"
+        ],
+        "strategy": "Buy on DEX before listing, sell on CEX pump",
+        "risk": "High",
+        "type": "LISTING_PUMP"
+      }
+    ],
+    "whale_moves": [
+      {
+        "chain": "ethereum",
+        "token": "USDT",
+        "amount": 5000000,
+        "from": "Unknown Wallet",
+        "to": "Binance",
+        "time": "5 min ago",
+        "impact": "Potential sell pressure"
+      },
+      {
+        "chain": "tron",
+        "token": "TRX",
+        "amount": 100000000,
+        "from": "Justin Sun Wallet",
+        "to": "Unknown",
+        "time": "12 min ago",
+        "impact": "Neutral"
+      },
+      {
+        "chain": "bsc",
+        "token": "BNB",
+        "amount": 25000,
+        "from": "Binance Cold Wallet",
+        "to": "New Wallet",
+        "time": "25 min ago",
+        "impact": "Exchange rebalancing"
+      }
+    ],
+    "dex_arb": [],
+    "nft_floor": [
+      {
+        "collection": "Pudgy Penguins",
+        "buy_on": "blur",
+        "sell_on": "looksrare",
+        "buy_price": 8.5,
+        "sell_price": 8.9,
+        "spread": 4.71,
+        "type": "NFT_ARB"
+      },
+      {
+        "collection": "Azuki",
+        "buy_on": "blur",
+        "sell_on": "opensea",
+        "buy_price": 11.9,
+        "sell_price": 12.3,
+        "spread": 3.36,
+        "type": "NFT_ARB"
+      },
+      {
+        "collection": "Bored Ape Yacht Club",
+        "buy_on": "blur",
+        "sell_on": "opensea",
+        "buy_price": 27.8,
+        "sell_price": 28.5,
+        "spread": 2.52,
+        "type": "NFT_ARB"
+      }
+    ],
+    "staking_diff": [
+      {
+        "asset": "ETH",
+        "best_platform": "Rocket Pool",
+        "best_apy": 4.1,
+        "worst_platform": "Binance",
+        "worst_apy": 3.5,
+        "diff": 0.6,
+        "lockup": "None",
+        "type": "STAKING_ARB"
+      }
+    ],
+    "lending_rates": [
+      {
+        "protocol": "Aave",
+        "asset": "USDC",
+        "supply_apy": 2.1,
+        "borrow_apy": 3.5,
+        "spread": 1.4,
+        "strategy": "Borrow low, lend high (if possible)",
+        "type": "LENDING_ARB"
+      },
+      {
+        "protocol": "Compound",
+        "asset": "USDC",
+        "supply_apy": 1.8,
+        "borrow_apy": 4.2,
+        "spread": 2.4,
+        "strategy": "Borrow low, lend high (if possible)",
+        "type": "LENDING_ARB"
+      },
+      {
+        "protocol": "Aave",
+        "asset": "ETH",
+        "supply_apy": 1.5,
+        "borrow_apy": 2.8,
+        "spread": 1.3,
+        "strategy": "Borrow low, lend high (if possible)",
+        "type": "LENDING_ARB"
+      }
+    ],
+    "liquidation_cascade": [
+      {
+        "asset": "BTC",
+        "price_level": 90000,
+        "long_liq": 300000000,
+        "short_liq": 20000000,
+        "total_liq": 320000000,
+        "dominant_side": "LONG",
+        "risk": "HIGH",
+        "strategy": "Watch for cascade if price approaches 90000",
+        "type": "LIQUIDATION_CASCADE"
+      },
+      {
+        "asset": "BTC",
+        "price_level": 92000,
+        "long_liq": 150000000,
+        "short_liq": 50000000,
+        "total_liq": 200000000,
+        "dominant_side": "LONG",
+        "risk": "MEDIUM",
+        "strategy": "Watch for cascade if price approaches 92000",
+        "type": "LIQUIDATION_CASCADE"
+      },
+      {
+        "asset": "ETH",
+        "price_level": 2800,
+        "long_liq": 120000000,
+        "short_liq": 15000000,
+        "total_liq": 135000000,
+        "dominant_side": "LONG",
+        "risk": "MEDIUM",
+        "strategy": "Watch for cascade if price approaches 2800",
+        "type": "LIQUIDATION_CASCADE"
+      },
+      {
+        "asset": "ETH",
+        "price_level": 2900,
+        "long_liq": 80000000,
+        "short_liq": 30000000,
+        "total_liq": 110000000,
+        "dominant_side": "LONG",
+        "risk": "MEDIUM",
+        "strategy": "Watch for cascade if price approaches 2900",
+        "type": "LIQUIDATION_CASCADE"
+      }
+    ]
+  },
+  "stats": {
+    "p2p_checks": 9,
+    "futures_checks": 5,
+    "funding_checks": 6,
+    "listing_checks": 3,
+    "whale_checks": 3,
+    "dex_checks": 5,
+    "nft_checks": 3,
+    "staking_checks": 6,
+    "lending_checks": 4,
+    "liquidation_checks": 4
+  }
+}

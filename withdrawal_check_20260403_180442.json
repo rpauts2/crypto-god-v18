@@ -1,0 +1,1305 @@
+{
+  "scan_type": "Withdrawal & Limits Check + Advanced Arb Validation",
+  "timestamp": "2026-04-03T18:04:30.182962",
+  "duration": "0:00:12.179249",
+  "exchanges_checked": 21,
+  "critical_findings": [
+    "kraken: ⛔ Вывод BTC закрыт!",
+    "kraken: ⛔ Вывод ETH закрыт!",
+    "kraken: ⛔ Вывод DOGE закрыт!",
+    "kraken: ⛔ Вывод MATIC закрыт!",
+    "kraken: ⛔ Вывод XMR закрыт!",
+    "kraken: ⛔ Вывод SOL закрыт!",
+    "kraken: ⛔ Вывод USDT закрыт!",
+    "kraken: ⛔ Вывод TON закрыт!",
+    "kraken: ⛔ Вывод AVAX закрыт!",
+    "kraken: ⛔ Вывод TRX закрыт!",
+    "bitfinex: ⛔ Вывод BTC закрыт!",
+    "bitfinex: ⛔ Вывод ETH закрыт!",
+    "bitfinex: ⛔ Вывод XMR закрыт!",
+    "bitfinex: ⛔ Вывод USDT закрыт!",
+    "kucoin: ⛔ Вывод MATIC закрыт!",
+    "bitget: ⛔ Вывод MATIC закрыт!",
+    "bitget: ⛔ Вывод XMR закрыт!",
+    "latoken: ⛔ Вывод BTC закрыт!",
+    "latoken: ⛔ Вывод ETH закрыт!",
+    "latoken: ⛔ Вывод DOGE закрыт!",
+    "latoken: ⛔ Вывод MATIC закрыт!",
+    "latoken: ⛔ Вывод XMR закрыт!",
+    "latoken: ⛔ Вывод SOL закрыт!",
+    "latoken: ⛔ Вывод USDT закрыт!",
+    "latoken: ⛔ Вывод TON закрыт!",
+    "latoken: ⛔ Вывод AVAX закрыт!",
+    "latoken: ⛔ Вывод TRX закрыт!",
+    "zebpay: ⛔ Вывод BTC закрыт!",
+    "zebpay: ⛔ Вывод ETH закрыт!",
+    "zebpay: ⛔ Вывод DOGE закрыт!",
+    "zebpay: 💸 Высокая комиссия на вывод DOGE: 6.666667",
+    "zebpay: ⛔ Вывод SOL закрыт!",
+    "zebpay: ⛔ Вывод USDT закрыт!",
+    "zebpay: ⛔ Вывод TON закрыт!",
+    "zebpay: ⛔ Вывод AVAX закрыт!",
+    "zebpay: ⛔ Вывод TRX закрыт!",
+    "zebpay: 💸 Высокая комиссия на вывод TRX: 8.0",
+    "lbank: 💸 Высокая комиссия на вывод DOGE: 11.0631",
+    "lbank: ⛔ Вывод MATIC закрыт!",
+    "hitbtc: 💸 Высокая комиссия на вывод DOGE: 108.6",
+    "hitbtc: 💸 Высокая комиссия на вывод USDT: 10.0",
+    "hitbtc: 💸 Высокая комиссия на вывод TRX: 31.79",
+    "coinone: 💸 Высокая комиссия на вывод DOGE: 20.0"
+  ],
+  "summary": {
+    "total_risks": 43,
+    "exchanges_with_closed_withdrawals": 36,
+    "exchanges_with_high_fees": 7,
+    "exchanges_with_high_min_orders": 0
+  },
+  "detailed_data": [
+    {
+      "exchange": "binance",
+      "status": "OK",
+      "wallets": {},
+      "fees": {},
+      "limits": {
+        "BTC/USDT": {
+          "min_cost": 5.0,
+          "min_amount": 1e-05
+        },
+        "ETH/USDT": {
+          "min_cost": 5.0,
+          "min_amount": 0.0001
+        },
+        "DOGE/USDT": {
+          "min_cost": 1.0,
+          "min_amount": 1.0
+        },
+        "MATIC/USDT": {
+          "min_cost": 5.0,
+          "min_amount": 0.1
+        },
+        "XMR/USDT": {
+          "min_cost": 5.0,
+          "min_amount": 0.001
+        },
+        "USDSOLD/USDT": {
+          "min_cost": 10.0,
+          "min_amount": 0.01
+        },
+        "AVAX/USDT": {
+          "min_cost": 5.0,
+          "min_amount": 0.01
+        },
+        "TON/USDT": {
+          "min_cost": 5.0,
+          "min_amount": 0.01
+        }
+      },
+      "risks": []
+    },
+    {
+      "exchange": "kraken",
+      "status": "OK",
+      "wallets": {
+        "BTC": {
+          "withdraw": null,
+          "deposit": null,
+          "fee": "None"
+        },
+        "ETH": {
+          "withdraw": null,
+          "deposit": null,
+          "fee": "None"
+        },
+        "DOGE": {
+          "withdraw": null,
+          "deposit": null,
+          "fee": "None"
+        },
+        "MATIC": {
+          "withdraw": null,
+          "deposit": null,
+          "fee": "None"
+        },
+        "XMR": {
+          "withdraw": null,
+          "deposit": null,
+          "fee": "None"
+        },
+        "SOL": {
+          "withdraw": null,
+          "deposit": null,
+          "fee": "None"
+        },
+        "USDT": {
+          "withdraw": null,
+          "deposit": null,
+          "fee": "None"
+        },
+        "TON": {
+          "withdraw": null,
+          "deposit": null,
+          "fee": "None"
+        },
+        "AVAX": {
+          "withdraw": null,
+          "deposit": null,
+          "fee": "None"
+        },
+        "TRX": {
+          "withdraw": null,
+          "deposit": null,
+          "fee": "None"
+        }
+      },
+      "fees": {},
+      "limits": {
+        "BTC/USDT": {
+          "min_cost": 0.5,
+          "min_amount": 5e-05
+        },
+        "ETH/USDT": {
+          "min_cost": 0.5,
+          "min_amount": 0.001
+        },
+        "DOGE/USDT": {
+          "min_cost": 0.5,
+          "min_amount": 13.0
+        },
+        "XMR/USDT": {
+          "min_cost": 0.5,
+          "min_amount": 0.015
+        },
+        "SOL/USDT": {
+          "min_cost": 0.5,
+          "min_amount": 0.02
+        },
+        "AVAX/USDT": {
+          "min_cost": 0.5,
+          "min_amount": 0.6
+        },
+        "TON/USDT": {
+          "min_cost": 0.5,
+          "min_amount": 4.0
+        }
+      },
+      "risks": [
+        "⛔ Вывод BTC закрыт!",
+        "⛔ Вывод ETH закрыт!",
+        "⛔ Вывод DOGE закрыт!",
+        "⛔ Вывод MATIC закрыт!",
+        "⛔ Вывод XMR закрыт!",
+        "⛔ Вывод SOL закрыт!",
+        "⛔ Вывод USDT закрыт!",
+        "⛔ Вывод TON закрыт!",
+        "⛔ Вывод AVAX закрыт!",
+        "⛔ Вывод TRX закрыт!"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "status": "OK",
+      "wallets": {
+        "BTC": {
+          "withdraw": false,
+          "deposit": false,
+          "fee": "6e-05"
+        },
+        "ETH": {
+          "withdraw": false,
+          "deposit": false,
+          "fee": "0.001"
+        },
+        "DOGE": {
+          "withdraw": true,
+          "deposit": true,
+          "fee": "0.0"
+        },
+        "XMR": {
+          "withdraw": false,
+          "deposit": false,
+          "fee": "0.0001"
+        },
+        "SOL": {
+          "withdraw": true,
+          "deposit": true,
+          "fee": "0.005"
+        },
+        "USDT": {
+          "withdraw": false,
+          "deposit": false,
+          "fee": "None"
+        },
+        "TON": {
+          "withdraw": true,
+          "deposit": true,
+          "fee": "0.0"
+        },
+        "AVAX": {
+          "withdraw": true,
+          "deposit": true,
+          "fee": "0.0"
+        },
+        "TRX": {
+          "withdraw": true,
+          "deposit": true,
+          "fee": "1.0"
+        }
+      },
+      "fees": {},
+      "limits": {
+        "BTC/USDT": {
+          "min_cost": null,
+          "min_amount": 4e-05
+        },
+        "ETH2X/USDT": {
+          "min_cost": null,
+          "min_amount": 0.0008
+        },
+        "DOGE/USDT": {
+          "min_cost": null,
+          "min_amount": 22.0
+        },
+        "XMR/USDT": {
+          "min_cost": null,
+          "min_amount": 0.02
+        },
+        "SOL/USDT": {
+          "min_cost": null,
+          "min_amount": 0.02
+        },
+        "AVAX/USDT": {
+          "min_cost": null,
+          "min_amount": 0.08
+        },
+        "TON/USDT": {
+          "min_cost": null,
+          "min_amount": 1.0
+        }
+      },
+      "risks": [
+        "⛔ Вывод BTC закрыт!",
+        "⛔ Вывод ETH закрыт!",
+        "⛔ Вывод XMR закрыт!",
+        "⛔ Вывод USDT закрыт!"
+      ]
+    },
+    {
+      "exchange": "kucoin",
+      "status": "OK",
+      "wallets": {
+        "BTC": {
+          "withdraw": true,
+          "deposit": true,
+          "fee": "4e-06"
+        },
+        "ETH": {
+          "withdraw": true,
+          "deposit": true,
+          "fee": "5e-05"
+        },
+        "DOGE": {
+          "withdraw": true,
+          "deposit": true,
+          "fee": "3.35"
+        },
+        "MATIC": {
+          "withdraw": false,
+          "deposit": false,
+          "fee": "1.0"
+        },
+        "XMR": {
+          "withdraw": true,
+          "deposit": true,
+          "fee": "0.002"
+        },
+        "SOL": {
+          "withdraw": true,
+          "deposit": true,
+          "fee": "0.008"
+        },
+        "USDT": {
+          "withdraw": true,
+          "deposit": true,
+          "fee": "0.0"
+        },
+        "TON": {
+          "withdraw": true,
+          "deposit": true,
+          "fee": "0.0"
+        },
+        "AVAX": {
+          "withdraw": true,
+          "deposit": true,
+          "fee": "0.03"
+        },
+        "TRX": {
+          "withdraw": true,
+          "deposit": true,
+          "fee": "1.0"
+        }
+      },
+      "fees": {},
+      "limits": {
+        "BTC/USDT": {
+          "min_cost": 0.1,
+          "min_amount": 1e-05
+        },
+        "ETH/USDT": {
+          "min_cost": 0.01,
+          "min_amount": 0.0001
+        },
+        "DOGE/USDT": {
+          "min_cost": 0.1,
+          "min_amount": 10.0
+        },
+        "XMR/USDT": {
+          "min_cost": 1.0,
+          "min_amount": 0.001
+        },
+        "SOL/USDT": {
+          "min_cost": 0.1,
+          "min_amount": 0.001
+        },
+        "AVAX/USDT": {
+          "min_cost": 0.1,
+          "min_amount": 0.01
+        },
+        "TON/USDT": {
+          "min_cost": 0.1,
+          "min_amount": 0.1
+        }
+      },
+      "risks": [
+        "⛔ Вывод MATIC закрыт!"
+      ]
+    },
+    {
+      "exchange": "gateio",
+      "status": "OK",
+      "wallets": {
+        "BTC": {
+          "withdraw": true,
+          "deposit": true,
+          "fee": "None"
+        },
+        "ETH": {
+          "withdraw": true,
+          "deposit": true,
+          "fee": "None"
+        },
+        "DOGE": {
+          "withdraw": true,
+          "deposit": true,
+          "fee": "None"
+        },
+        "SOL": {
+          "withdraw": true,
+          "deposit": true,
+          "fee": "None"
+        },
+        "USDT": {
+          "withdraw": true,
+          "deposit": true,
+          "fee": "None"
+        },
+        "TON": {
+          "withdraw": true,
+          "deposit": true,
+          "fee": "None"
+        },
+        "AVAX": {
+          "withdraw": true,
+          "deposit": true,
+          "fee": "None"
+        },
+        "TRX": {
+          "withdraw": true,
+          "deposit": true,
+          "fee": "None"
+        }
+      },
+      "fees": {},
+      "limits": {
+        "BTC5L/USDT": {
+          "min_cost": 3.0,
+          "min_amount": 0.01
+        },
+        "ETH3L/USDT": {
+          "min_cost": 3.0,
+          "min_amount": 0.01
+        },
+        "DOGE3S/USDT": {
+          "min_cost": 3.0,
+          "min_amount": 0.01
+        },
+        "XMR/USDT:USDT": {
+          "min_cost": null,
+          "min_amount": 1.0
+        },
+        "MSOL/USDT": {
+          "min_cost": 3.0,
+          "min_amount": 0.001
+        },
+        "AVAX5L/USDT": {
+          "min_cost": 3.0,
+          "min_amount": 0.01
+        },
+        "SBETON/USDT": {
+          "min_cost": 3.0,
+          "min_amount": 0.001
+        }
+      },
+      "risks": []
+    },
+    {
+      "exchange": "huobi",
+      "status": "OK",
+      "wallets": {
+        "BTC": {
+          "withdraw": true,
+          "deposit": true,
+          "fee": "4e-06"
+        },
+        "ETH": {
+          "withdraw": true,
+          "deposit": true,
+          "fee": "3.6e-05"
+        },
+        "DOGE": {
+          "withdraw": true,
+          "deposit": true,
+          "fee": "5.0"
+        },
+        "XMR": {
+          "withdraw": true,
+          "deposit": true,
+          "fee": "0.002"
+        },
+        "SOL": {
+          "withdraw": true,
+          "deposit": true,
+          "fee": "0.003"
+        },
+        "USDT": {
+          "withdraw": true,
+          "deposit": true,
+          "fee": "0.0"
+        },
+        "TON": {
+          "withdraw": true,
+          "deposit": true,
+          "fee": "0.01"
+        },
+        "AVAX": {
+          "withdraw": true,
+          "deposit": true,
+          "fee": "0.06"
+        },
+        "TRX": {
+          "withdraw": true,
+          "deposit": true,
+          "fee": "1.0"
+        }
+      },
+      "fees": {},
+      "limits": {
+        "BTC3S/USDT": {
+          "min_cost": 10.0,
+          "min_amount": 0.01
+        },
+        "NEIROETH/USDT": {
+          "min_cost": 10.0,
+          "min_amount": 0.1
+        },
+        "BABYDOGE/USDT": {
+          "min_cost": 10.0,
+          "min_amount": 1.0
+        },
+        "XMR/USDT": {
+          "min_cost": 1.0,
+          "min_amount": 0.0001
+        },
+        "LUNASOL/USDT": {
+          "min_cost": 10.0,
+          "min_amount": 1.0
+        },
+        "AVAX/USDT": {
+          "min_cost": 1.0,
+          "min_amount": 0.001
+        },
+        "ONSTON/USDT": {
+          "min_cost": 10.0,
+          "min_amount": 0.1
+        }
+      },
+      "risks": []
+    },
+    {
+      "exchange": "bitget",
+      "status": "OK",
+      "wallets": {
+        "BTC": {
+          "withdraw": true,
+          "deposit": true,
+          "fee": "2.25e-06"
+        },
+        "ETH": {
+          "withdraw": true,
+          "deposit": true,
+          "fee": "3e-05"
+        },
+        "DOGE": {
+          "withdraw": true,
+          "deposit": true,
+          "fee": "4.0"
+        },
+        "MATIC": {
+          "withdraw": false,
+          "deposit": false,
+          "fee": "None"
+        },
+        "XMR": {
+          "withdraw": false,
+          "deposit": false,
+          "fee": "None"
+        },
+        "SOL": {
+          "withdraw": true,
+          "deposit": true,
+          "fee": "0.006"
+        },
+        "USDT": {
+          "withdraw": true,
+          "deposit": true,
+          "fee": "0.001"
+        },
+        "TON": {
+          "withdraw": true,
+          "deposit": true,
+          "fee": "0.02"
+        },
+        "AVAX": {
+          "withdraw": true,
+          "deposit": true,
+          "fee": "0.0064"
+        },
+        "TRX": {
+          "withdraw": true,
+          "deposit": true,
+          "fee": "1.1"
+        }
+      },
+      "fees": {},
+      "limits": {
+        "BTC/USDT": {
+          "min_cost": 1.0,
+          "min_amount": 0.0
+        },
+        "WEETH/USDT": {
+          "min_cost": 1.0,
+          "min_amount": 0.0
+        },
+        "DOGE/USDT": {
+          "min_cost": 1.0,
+          "min_amount": 0.0
+        },
+        "XMR/USDT:USDT": {
+          "min_cost": 5.0,
+          "min_amount": 0.01
+        },
+        "SOLV/USDT": {
+          "min_cost": 1.0,
+          "min_amount": 0.0
+        },
+        "AVAX/USDT": {
+          "min_cost": 1.0,
+          "min_amount": 0.0
+        },
+        "ITOTON/USDT": {
+          "min_cost": 1.0,
+          "min_amount": 0.0
+        }
+      },
+      "risks": [
+        "⛔ Вывод MATIC закрыт!",
+        "⛔ Вывод XMR закрыт!"
+      ]
+    },
+    {
+      "exchange": "mexc",
+      "status": "OK",
+      "wallets": {},
+      "fees": {},
+      "limits": {
+        "WBTC/USDT": {
+          "min_cost": 1.0,
+          "min_amount": 1e-05
+        },
+        "ETHW/USDT": {
+          "min_cost": 1.0,
+          "min_amount": 0.0001
+        },
+        "AIDOGE/USDT": {
+          "min_cost": 1.0,
+          "min_amount": 0.0
+        },
+        "XMR/USDT": {
+          "min_cost": 1.0,
+          "min_amount": 0.001
+        },
+        "SOL/USDT": {
+          "min_cost": 1.0,
+          "min_amount": 0.01
+        },
+        "AVAX/USDT": {
+          "min_cost": 1.0,
+          "min_amount": 0.0001
+        },
+        "SBETON/USDT": {
+          "min_cost": 1.0,
+          "min_amount": 0.0
+        }
+      },
+      "risks": []
+    },
+    {
+      "exchange": "latoken",
+      "status": "OK",
+      "wallets": {
+        "BTC": {
+          "withdraw": null,
+          "deposit": null,
+          "fee": "None"
+        },
+        "ETH": {
+          "withdraw": null,
+          "deposit": null,
+          "fee": "None"
+        },
+        "DOGE": {
+          "withdraw": null,
+          "deposit": null,
+          "fee": "None"
+        },
+        "MATIC": {
+          "withdraw": null,
+          "deposit": null,
+          "fee": "None"
+        },
+        "XMR": {
+          "withdraw": null,
+          "deposit": null,
+          "fee": "None"
+        },
+        "SOL": {
+          "withdraw": null,
+          "deposit": null,
+          "fee": "None"
+        },
+        "USDT": {
+          "withdraw": null,
+          "deposit": null,
+          "fee": "None"
+        },
+        "TON": {
+          "withdraw": null,
+          "deposit": null,
+          "fee": "None"
+        },
+        "AVAX": {
+          "withdraw": null,
+          "deposit": null,
+          "fee": "None"
+        },
+        "TRX": {
+          "withdraw": null,
+          "deposit": null,
+          "fee": "None"
+        }
+      },
+      "fees": {},
+      "limits": {},
+      "risks": [
+        "⛔ Вывод BTC закрыт!",
+        "⛔ Вывод ETH закрыт!",
+        "⛔ Вывод DOGE закрыт!",
+        "⛔ Вывод MATIC закрыт!",
+        "⛔ Вывод XMR закрыт!",
+        "⛔ Вывод SOL закрыт!",
+        "⛔ Вывод USDT закрыт!",
+        "⛔ Вывод TON закрыт!",
+        "⛔ Вывод AVAX закрыт!",
+        "⛔ Вывод TRX закрыт!"
+      ]
+    },
+    {
+      "exchange": "zebpay",
+      "status": "OK",
+      "wallets": {
+        "BTC": {
+          "withdraw": false,
+          "deposit": false,
+          "fee": "0.0002"
+        },
+        "ETH": {
+          "withdraw": false,
+          "deposit": false,
+          "fee": "0.0007"
+        },
+        "DOGE": {
+          "withdraw": false,
+          "deposit": false,
+          "fee": "6.666667"
+        },
+        "SOL": {
+          "withdraw": false,
+          "deposit": false,
+          "fee": "0.003678"
+        },
+        "USDT": {
+          "withdraw": false,
+          "deposit": false,
+          "fee": "3.0"
+        },
+        "TON": {
+          "withdraw": false,
+          "deposit": false,
+          "fee": "None"
+        },
+        "AVAX": {
+          "withdraw": false,
+          "deposit": false,
+          "fee": "0.071685"
+        },
+        "TRX": {
+          "withdraw": false,
+          "deposit": false,
+          "fee": "8.0"
+        }
+      },
+      "fees": {},
+      "limits": {
+        "BTC/USDT": {
+          "min_cost": null,
+          "min_amount": null
+        },
+        "ETH/USDT": {
+          "min_cost": null,
+          "min_amount": null
+        },
+        "DOGE/USDT": {
+          "min_cost": null,
+          "min_amount": null
+        },
+        "SOL/USDT": {
+          "min_cost": null,
+          "min_amount": null
+        },
+        "AVAX/USDT:USDT": {
+          "min_cost": 0,
+          "min_amount": 0
+        },
+        "TON/USDT:USDT": {
+          "min_cost": 0,
+          "min_amount": 0
+        }
+      },
+      "risks": [
+        "⛔ Вывод BTC закрыт!",
+        "⛔ Вывод ETH закрыт!",
+        "⛔ Вывод DOGE закрыт!",
+        "💸 Высокая комиссия на вывод DOGE: 6.666667",
+        "⛔ Вывод SOL закрыт!",
+        "⛔ Вывод USDT закрыт!",
+        "⛔ Вывод TON закрыт!",
+        "⛔ Вывод AVAX закрыт!",
+        "⛔ Вывод TRX закрыт!",
+        "💸 Высокая комиссия на вывод TRX: 8.0"
+      ]
+    },
+    {
+      "exchange": "btcturk",
+      "status": "OK",
+      "wallets": {},
+      "fees": {},
+      "limits": {
+        "BTC/USDT": {
+          "min_cost": 9.91,
+          "min_amount": null
+        },
+        "ETHFI/USDT": {
+          "min_cost": 9.91,
+          "min_amount": null
+        },
+        "DOGE/USDT": {
+          "min_cost": 9.91,
+          "min_amount": null
+        },
+        "SOL/USDT": {
+          "min_cost": 9.91,
+          "min_amount": null
+        },
+        "AVAX/USDT": {
+          "min_cost": 9.91,
+          "min_amount": null
+        },
+        "TON/USDT": {
+          "min_cost": 9.91,
+          "min_amount": null
+        }
+      },
+      "risks": []
+    },
+    {
+      "exchange": "poloniex",
+      "status": "OK",
+      "wallets": {
+        "BTC": {
+          "withdraw": true,
+          "deposit": true,
+          "fee": "6.15e-06"
+        },
+        "ETH": {
+          "withdraw": true,
+          "deposit": true,
+          "fee": "0.00020074"
+        },
+        "DOGE": {
+          "withdraw": true,
+          "deposit": true,
+          "fee": "5.0"
+        },
+        "XMR": {
+          "withdraw": true,
+          "deposit": true,
+          "fee": "0.0001"
+        },
+        "SOL": {
+          "withdraw": true,
+          "deposit": true,
+          "fee": "0.01"
+        },
+        "USDT": {
+          "withdraw": true,
+          "deposit": true,
+          "fee": "0.0"
+        },
+        "TON": {
+          "withdraw": true,
+          "deposit": true,
+          "fee": "0.01"
+        },
+        "AVAX": {
+          "withdraw": true,
+          "deposit": true,
+          "fee": "0.01"
+        },
+        "TRX": {
+          "withdraw": true,
+          "deposit": true,
+          "fee": "1.0"
+        }
+      },
+      "fees": {},
+      "limits": {
+        "BTC/USDT": {
+          "min_cost": 1.0,
+          "min_amount": 1e-06
+        },
+        "ETH/USDT": {
+          "min_cost": 1.0,
+          "min_amount": 1e-06
+        },
+        "DOGE/USDT": {
+          "min_cost": 1.0,
+          "min_amount": 0.001
+        },
+        "XMR/USDT": {
+          "min_cost": 1.0,
+          "min_amount": 1e-06
+        },
+        "SOL/USDT": {
+          "min_cost": 1.0,
+          "min_amount": 1e-06
+        },
+        "AVAX/USDT": {
+          "min_cost": 1.0,
+          "min_amount": 1e-06
+        },
+        "TON/USDT": {
+          "min_cost": 1.0,
+          "min_amount": 1e-05
+        }
+      },
+      "risks": []
+    },
+    {
+      "exchange": "lbank",
+      "status": "OK",
+      "wallets": {
+        "BTC": {
+          "withdraw": true,
+          "deposit": null,
+          "fee": "5e-05"
+        },
+        "ETH": {
+          "withdraw": true,
+          "deposit": null,
+          "fee": "0.0001"
+        },
+        "DOGE": {
+          "withdraw": true,
+          "deposit": null,
+          "fee": "11.0631"
+        },
+        "MATIC": {
+          "withdraw": false,
+          "deposit": null,
+          "fee": "1.0"
+        },
+        "SOL": {
+          "withdraw": true,
+          "deposit": null,
+          "fee": "0.0126"
+        },
+        "USDT": {
+          "withdraw": true,
+          "deposit": null,
+          "fee": "0.5"
+        },
+        "TON": {
+          "withdraw": true,
+          "deposit": null,
+          "fee": "0.2"
+        },
+        "AVAX": {
+          "withdraw": true,
+          "deposit": null,
+          "fee": "0.05"
+        },
+        "TRX": {
+          "withdraw": true,
+          "deposit": null,
+          "fee": "1.5"
+        }
+      },
+      "fees": {},
+      "limits": {
+        "BTC/USDT": {
+          "min_cost": null,
+          "min_amount": 1e-05
+        },
+        "ETH/USDT": {
+          "min_cost": null,
+          "min_amount": 0.0001
+        },
+        "DOGE/USDT": {
+          "min_cost": null,
+          "min_amount": 6.0
+        },
+        "MATIC/USDT": {
+          "min_cost": null,
+          "min_amount": 0.01
+        },
+        "XMR3L/USDT": {
+          "min_cost": null,
+          "min_amount": 0.01
+        },
+        "SOL3L/USDT": {
+          "min_cost": null,
+          "min_amount": 0.01
+        },
+        "AVAX/USDT": {
+          "min_cost": null,
+          "min_amount": 0.01
+        },
+        "TON/USDT": {
+          "min_cost": null,
+          "min_amount": 1.0
+        }
+      },
+      "risks": [
+        "💸 Высокая комиссия на вывод DOGE: 11.0631",
+        "⛔ Вывод MATIC закрыт!"
+      ]
+    },
+    {
+      "exchange": "hitbtc",
+      "status": "OK",
+      "wallets": {
+        "BTC": {
+          "withdraw": true,
+          "deposit": true,
+          "fee": "0.0013"
+        },
+        "ETH": {
+          "withdraw": true,
+          "deposit": true,
+          "fee": "0.0045"
+        },
+        "DOGE": {
+          "withdraw": true,
+          "deposit": true,
+          "fee": "108.6"
+        },
+        "XMR": {
+          "withdraw": true,
+          "deposit": true,
+          "fee": "0.03154"
+        },
+        "SOL": {
+          "withdraw": true,
+          "deposit": true,
+          "fee": "0.1248"
+        },
+        "USDT": {
+          "withdraw": true,
+          "deposit": true,
+          "fee": "10.0"
+        },
+        "AVAX": {
+          "withdraw": true,
+          "deposit": true,
+          "fee": "1.105"
+        },
+        "TRX": {
+          "withdraw": true,
+          "deposit": true,
+          "fee": "31.79"
+        }
+      },
+      "fees": {},
+      "limits": {
+        "WBTC/USDT": {
+          "min_cost": 1e-07,
+          "min_amount": 1e-06
+        },
+        "ETHFI/USDT": {
+          "min_cost": 1e-06,
+          "min_amount": 0.01
+        },
+        "XMR/USDT": {
+          "min_cost": 1e-07,
+          "min_amount": 0.001
+        },
+        "SOL/USDT:USDT": {
+          "min_cost": 1e-05,
+          "min_amount": 0.1
+        },
+        "AVAX/USDT:USDT": {
+          "min_cost": 1e-05,
+          "min_amount": 0.01
+        },
+        "TON/USDT:USDT": {
+          "min_cost": 1e-05,
+          "min_amount": 0.1
+        }
+      },
+      "risks": [
+        "💸 Высокая комиссия на вывод DOGE: 108.6",
+        "💸 Высокая комиссия на вывод USDT: 10.0",
+        "💸 Высокая комиссия на вывод TRX: 31.79"
+      ]
+    },
+    {
+      "exchange": "bingx",
+      "status": "OK",
+      "wallets": {},
+      "fees": {},
+      "limits": {
+        "RBTC/USDT": {
+          "min_cost": 1.0,
+          "min_amount": null
+        },
+        "ETHS/USDT": {
+          "min_cost": 1.0,
+          "min_amount": null
+        },
+        "DOGEGOV/USDT": {
+          "min_cost": 1.0,
+          "min_amount": null
+        },
+        "MATIC/USDT": {
+          "min_cost": 1.0,
+          "min_amount": null
+        },
+        "XMR/USDT": {
+          "min_cost": 5.0,
+          "min_amount": null
+        },
+        "SOLV/USDT": {
+          "min_cost": 1.0,
+          "min_amount": null
+        },
+        "AVAX/USDT": {
+          "min_cost": 1.0,
+          "min_amount": null
+        },
+        "TONCOIN/USDT": {
+          "min_cost": 1.0,
+          "min_amount": null
+        }
+      },
+      "risks": []
+    },
+    {
+      "exchange": "upbit",
+      "status": "OK",
+      "wallets": {},
+      "fees": {},
+      "limits": {
+        "USDT/BTC": {
+          "min_cost": null,
+          "min_amount": null
+        },
+        "ETHFI/USDT": {
+          "min_cost": null,
+          "min_amount": null
+        },
+        "DOGE/USDT": {
+          "min_cost": null,
+          "min_amount": null
+        },
+        "RESOLV/USDT": {
+          "min_cost": null,
+          "min_amount": null
+        }
+      },
+      "risks": []
+    },
+    {
+      "exchange": "bithumb",
+      "status": "OK",
+      "wallets": {},
+      "fees": {},
+      "limits": {},
+      "risks": []
+    },
+    {
+      "exchange": "coinone",
+      "status": "OK",
+      "wallets": {
+        "BTC": {
+          "withdraw": true,
+          "deposit": true,
+          "fee": "0.0008"
+        },
+        "ETH": {
+          "withdraw": true,
+          "deposit": true,
+          "fee": "0.005"
+        },
+        "DOGE": {
+          "withdraw": true,
+          "deposit": true,
+          "fee": "20.0"
+        },
+        "SOL": {
+          "withdraw": true,
+          "deposit": true,
+          "fee": "0.03"
+        },
+        "USDT": {
+          "withdraw": true,
+          "deposit": true,
+          "fee": "2.0"
+        },
+        "TON": {
+          "withdraw": true,
+          "deposit": true,
+          "fee": "0.5"
+        },
+        "AVAX": {
+          "withdraw": true,
+          "deposit": true,
+          "fee": "0.01"
+        },
+        "TRX": {
+          "withdraw": true,
+          "deposit": true,
+          "fee": "1.0"
+        }
+      },
+      "fees": {},
+      "limits": {},
+      "risks": [
+        "💸 Высокая комиссия на вывод DOGE: 20.0"
+      ]
+    },
+    {
+      "exchange": "indodax",
+      "status": "OK",
+      "wallets": {},
+      "fees": {},
+      "limits": {
+        "BTC/USDT": {
+          "min_cost": null,
+          "min_amount": 1.5e-05
+        },
+        "ETH/USDT": {
+          "min_cost": null,
+          "min_amount": 0.000486
+        }
+      },
+      "risks": []
+    },
+    {
+      "exchange": "tokocrypto",
+      "status": "OK",
+      "wallets": {},
+      "fees": {},
+      "limits": {
+        "BTC/USDT": {
+          "min_cost": null,
+          "min_amount": 1e-05
+        },
+        "ETHFI/USDT": {
+          "min_cost": null,
+          "min_amount": 0.1
+        },
+        "1MBABYDOGE/USDT": {
+          "min_cost": null,
+          "min_amount": 1.0
+        },
+        "RESOLV/USDT": {
+          "min_cost": null,
+          "min_amount": 0.1
+        },
+        "AVAX/USDT": {
+          "min_cost": null,
+          "min_amount": 0.01
+        },
+        "TON/USDT": {
+          "min_cost": null,
+          "min_amount": 0.01
+        }
+      },
+      "risks": []
+    },
+    {
+      "exchange": "bitbns",
+      "status": "OK",
+      "wallets": {},
+      "fees": {},
+      "limits": {
+        "BTC/USDT": {
+          "min_cost": 1.0,
+          "min_amount": 1.818e-05
+        },
+        "ETH/USDT": {
+          "min_cost": 1.0,
+          "min_amount": 0.0004
+        },
+        "DOGE/USDT": {
+          "min_cost": 1.0,
+          "min_amount": 1.0
+        },
+        "XMR/USDT": {
+          "min_cost": 1.0,
+          "min_amount": 0.0065
+        }
+      },
+      "risks": []
+    }
+  ]
+}

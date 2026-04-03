@@ -1,0 +1,156 @@
+[
+  {
+    "type": "WHALE_FLOW",
+    "pair": "USDT",
+    "strategy": "Bearish Signal",
+    "profit_percent": 0.0,
+    "profit_usd_per_1k": 0.0,
+    "details": "Кошелек 0x7a... перевел 50,000,000 USDT на Binance. Вероятно,准备 к покупке или дамп (чаще покупка в текущем контексте).",
+    "risk_level": "INFO",
+    "exchanges": "OnChain -> Binance",
+    "timestamp": "18:22:00"
+  },
+  {
+    "type": "WHALE_FLOW",
+    "pair": "BTC",
+    "strategy": "Bullish Signal",
+    "profit_percent": 0.0,
+    "profit_usd_per_1k": 0.0,
+    "details": "1,200 BTC выведено с Coinbase в холодное хранение. Давление продаж падает.",
+    "risk_level": "INFO",
+    "exchanges": "Coinbase -> Cold Wallet",
+    "timestamp": "18:22:00"
+  },
+  {
+    "type": "LIQ_CASCADE",
+    "pair": "BTC/USDT",
+    "strategy": "Short Scalp @ $94,200",
+    "profit_percent": 0.0,
+    "profit_usd_per_1k": 0.0,
+    "details": "Кластер ликвидаций лонгов на сумму $450M в диапазоне $94,100-$94,200. Пробой вызовет каскад.",
+    "risk_level": "CRITICAL",
+    "exchanges": "All CEXs",
+    "timestamp": "18:22:00"
+  },
+  {
+    "type": "LIQ_REBOUND",
+    "pair": "ETH/USDT",
+    "strategy": "Long Bounce @ $3,050",
+    "profit_percent": 0.0,
+    "profit_usd_per_1k": 0.0,
+    "details": "Плотная стена шорт-ликвидаций ($120M). Ожидается отскок при касании.",
+    "risk_level": "HIGH",
+    "exchanges": "All CEXs",
+    "timestamp": "18:22:00"
+  },
+  {
+    "type": "LISTING_PUMP",
+    "pair": "AERO/USDT",
+    "strategy": "Pre-Market Buy",
+    "profit_percent": 0.0,
+    "profit_usd_per_1k": 0.0,
+    "details": "Binance анонсировал листинг AERO через 4 часа. Сейчас торгуется на MEXC с дисконтом 15%.",
+    "risk_level": "HIGH",
+    "exchanges": "MEXC -> Future Binance Listing",
+    "timestamp": "18:22:00"
+  },
+  {
+    "type": "MEME_HYPE",
+    "pair": "WIF/USDT",
+    "strategy": "Social Sentiment Buy",
+    "profit_percent": 0.0,
+    "profit_usd_per_1k": 0.0,
+    "details": "Рост упоминаний в Twitter на 400% за 1 час. Инсайдеры загружаются на DEX.",
+    "risk_level": "CRITICAL",
+    "exchanges": "DEX Aggregators",
+    "timestamp": "18:22:00"
+  },
+  {
+    "type": "CASH_CARRY",
+    "pair": "ETH/USDT",
+    "strategy": "Long Spot + Short Fut (Bybit)",
+    "profit_percent": 28.5,
+    "profit_usd_per_1k": 0.78,
+    "details": "Фьючерс торгуется с премией 2.4%. Funding нейтрален.",
+    "risk_level": "LOW",
+    "exchanges": "Bybit Spot/Fut",
+    "timestamp": "18:22:01"
+  },
+  {
+    "type": "CASH_CARRY",
+    "pair": "SOL/USDT",
+    "strategy": "Long Spot + Short Fut (Binance)",
+    "profit_percent": 34.2,
+    "profit_usd_per_1k": 0.93,
+    "details": "Аномально высокий базис перед апгрейдом сети.",
+    "risk_level": "MEDIUM",
+    "exchanges": "Binance Spot/Fut",
+    "timestamp": "18:22:01"
+  },
+  {
+    "type": "FUNDING_ARB",
+    "pair": "BTC/USDT",
+    "strategy": "Short on Bybit (+0.02%) + Long on Binance (-0.01%)",
+    "profit_percent": 10.9,
+    "profit_usd_per_1k": 0.3,
+    "details": "Разница ставок финансирования. Delta Neutral.",
+    "risk_level": "LOW",
+    "exchanges": "Bybit vs Binance",
+    "timestamp": "18:22:01"
+  },
+  {
+    "type": "P2P_ARB",
+    "pair": "USDT/RUB",
+    "strategy": "Bybit Buy (SBP) -> Binance Sell (Sber)",
+    "profit_percent": 1.85,
+    "profit_usd_per_1k": 18.5,
+    "details": "Курс покупки 89.2, продажи 90.85. Лимиты: 50k-500k RUB.",
+    "risk_level": "LOW",
+    "exchanges": "Bybit -> Binance",
+    "timestamp": "18:22:01"
+  },
+  {
+    "type": "P2P_ARB",
+    "pair": "USDT/RUB",
+    "strategy": "Huobi Buy (Tinkoff) -> Bybit Sell (SBP)",
+    "profit_percent": 1.42,
+    "profit_usd_per_1k": 14.2,
+    "details": "Кросс-биржевая связка. Время круга: 12 мин.",
+    "risk_level": "MEDIUM",
+    "exchanges": "Huobi -> Bybit",
+    "timestamp": "18:22:01"
+  },
+  {
+    "type": "P2P_ARB",
+    "pair": "BTC/RUB",
+    "strategy": "Binance Buy (Sber) -> LocalBitcoins Sell",
+    "profit_percent": 2.1,
+    "profit_usd_per_1k": 21.0,
+    "details": "Высокий спред из-за дефицита BTC на локальном рынке.",
+    "risk_level": "HIGH",
+    "exchanges": "Binance -> Local",
+    "timestamp": "18:22:01"
+  },
+  {
+    "type": "DEX_CEX_ARB",
+    "pair": "JUP/USDT",
+    "strategy": "Buy Raydium -> Sell Binance",
+    "profit_percent": 3.4,
+    "profit_usd_per_1k": 34.0,
+    "details": "Задержка обновления оракула на CEX. Газ Solana низкий.",
+    "risk_level": "MEDIUM",
+    "exchanges": "Raydium -> Binance",
+    "timestamp": "18:22:01"
+  },
+  {
+    "type": "DEX_CEX_ARB",
+    "pair": "PEPE/USDT",
+    "strategy": "Buy Uniswap -> Sell OKX",
+    "profit_percent": 2.1,
+    "profit_usd_per_1k": 21.0,
+    "details": "Памп на DEX еще не дошел до централизованных бирж.",
+    "risk_level": "HIGH",
+    "exchanges": "Uniswap -> OKX",
+    "timestamp": "18:22:01"
+  }
+]
