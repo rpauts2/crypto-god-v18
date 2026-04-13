@@ -1,88 +1,55 @@
-```
 # Python
 __pycache__/
-*.pyc
-*.pyo
-*.pyd
+*.py[cod]
+*$py.class
+*.so
 .Python
 env/
 venv/
-.venv/
-.ENV
-.ENV.*
-.venv/
-venv/
-env/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Rust
+/target/
+**/*.rs.bk
+Cargo.lock
 
 # Logs
 *.log
+logs/
 
-# Temporary files
-*.tmp
-*.temp
+# Results & Data
+results_*.json
+output_*.txt
+*.csv
+data/
+
+# IDE
+.idea/
+.vscode/
 *.swp
 *.swo
+*~
 
-# OS generated files
+# OS
 .DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
 Thumbs.db
 
-# Environment variables
+# Secrets
 .env
-.env.local
-.env.*
-!.env.example
-
-# Coverage reports
-coverage/
-htmlcov/
-.coverage
-*.coverage
-
-# IDE specific
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# Build outputs
-build/
-dist/
-*.egg-info/
-target/
-out/
-bin/
-
-# Cache directories
-.mypy_cache/
-.pytest_cache/
-.hypothesis/
-.tox/
-.coverage*/
-
-# Compressed files
-*.zip
-*.tar.gz
-*.tar.bz2
-*.tar.xz
-*.gz
-*.bz2
-*.xz
-*.7z
-*.rar
-*.zst
-*.lz4
-*.lzh
-*.cab
-*.arj
-*.rpm
-*.deb
-*.Z
-*.lz
-*.lzo
-```
+*.key
+*.pem
